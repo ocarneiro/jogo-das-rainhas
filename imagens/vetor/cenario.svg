@@ -2061,12 +2061,15 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="seta"
-     style="display:none">
+     style="display:inline">
     <g
        id="layer1-6"
        inkscape:label="Camada 1"
        transform="matrix(0.34399691,0,0,0.23576085,148.61894,196.92811)"
-       style="display:inline;fill:#e38a24;fill-opacity:1;stroke:#000000;stroke-width:1.35190952;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new">
+       style="display:inline;fill:#e38a24;fill-opacity:1;stroke:#000000;stroke-width:1.35190952;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       inkscape:export-filename="/home/nvidia/Tatau/Projetos/Git/jogo-das-rainhas/imagens/seta.png"
+       inkscape:export-xdpi="48"
+       inkscape:export-ydpi="48">
       <path
          sodipodi:nodetypes="ccccccccccccccc"
          inkscape:connector-curvature="0"
