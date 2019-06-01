@@ -7,16 +7,21 @@ pygame.display.set_caption("Jogo das Rainhas")
 relogio = pygame.time.Clock()
 
 img_dragao = pygame.image.load('imagens/dragao.png')
+img_dragao = pygame.transform.scale(img_dragao, (110,60))
+
+img_cenario = pygame.image.load('imagens/cenario.png')
+
 pos_dragao = -200
-vel_dragao = 8
+vel_dragao = 6
 rodando = True
 
 while rodando:
-    relogio.tick(24)
-    # fill recebe uma cor RGB ([vermelho, verde, azul])
-    # ou cor em formato html '#112233'
-    tela.fill(pygame.Color('#f2f2f2'))
+    relogio.tick(24)  # fps
+    # fill recebe valores RGB ([vermelho, verde, azul])
+    # ou cor em formato html: pygame.Color('#112233')
+    tela.fill([255,255,255])
     # blit recebe uma imagem e uma posição (x,y)
+    tela.blit(img_cenario, (0,0))
     tela.blit(img_dragao, (pos_dragao,30))
     pygame.display.flip()
 

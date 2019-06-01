@@ -17,9 +17,9 @@
    id="svg8"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
    sodipodi:docname="cenario.svg"
-   inkscape:export-filename="/home/otavio/Tatau/Projetos/game/dragao.png"
-   inkscape:export-xdpi="36.57"
-   inkscape:export-ydpi="36.57"
+   inkscape:export-filename="/home/nvidia/Tatau/Projetos/Git/jogo-das-rainhas/imagens/cenario.png"
+   inkscape:export-xdpi="48"
+   inkscape:export-ydpi="48"
    style="enable-background:new">
   <defs
      id="defs2">
@@ -147,10 +147,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="804.27031"
-     inkscape:cy="387.76518"
+     inkscape:cx="842.41381"
+     inkscape:cy="405.82301"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer8"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1010"
@@ -178,10 +178,10 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="fundo"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,54.583324)">
     <rect
-       style="fill:#f2f2f2;fill-opacity:1;stroke-width:3.84517932"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:3.84517932"
        id="rect4530-3-6"
        width="370.41666"
        height="264.58334"
@@ -208,7 +208,7 @@
        id="rect1646"
        style="display:inline;fill:#c87a20;fill-opacity:1;stroke:none;stroke-width:1.8789444;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       style="display:inline;fill:#d8d7d6;fill-opacity:1;stroke:none;stroke-width:0.95;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.95;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect958"
        width="372.56506"
        height="29.336601"
@@ -1699,7 +1699,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="dragao"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,54.583324)">
     <ellipse
        transform="translate(0,-87.000001)"
@@ -1745,7 +1745,10 @@
        transform="scale(0.26458333)" />
     <g
        id="g941"
-       transform="matrix(0.28227503,0,0,0.28227503,13.270579,-47.190717)">
+       transform="matrix(0.28227503,0,0,0.28227503,13.270579,-47.190717)"
+       inkscape:export-filename="/home/nvidia/Tatau/Projetos/Git/jogo-das-rainhas/imagens/dragao.png"
+       inkscape:export-xdpi="72.346901"
+       inkscape:export-ydpi="72.346901">
       <path
          inkscape:export-ydpi="20.440001"
          inkscape:export-xdpi="20.440001"
@@ -2048,10 +2051,21 @@
        id="rect1698"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.38499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 202.21624,224.4929 -0.4009,13.36348 -4.54359,23.38608 -0.53453,-1.46998 z"
+       id="path3218"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="seta"
+     style="display:none">
     <g
        id="layer1-6"
        inkscape:label="Camada 1"
-       transform="matrix(0.34399692,0,0,0.23576085,148.61894,196.92811)"
+       transform="matrix(0.34399691,0,0,0.23576085,148.61894,196.92811)"
        style="display:inline;fill:#e38a24;fill-opacity:1;stroke:#000000;stroke-width:1.35190952;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new">
       <path
          sodipodi:nodetypes="ccccccccccccccc"
@@ -2060,10 +2074,5 @@
          style="fill:#e38a24;fill-opacity:1;stroke:#000000;stroke-width:1.35190952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path70" />
     </g>
-    <path
-       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.38499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 202.21624,224.4929 -0.4009,13.36348 -4.54359,23.38608 -0.53453,-1.46998 z"
-       id="path3218"
-       inkscape:connector-curvature="0" />
   </g>
 </svg>
