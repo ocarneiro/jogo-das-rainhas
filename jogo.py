@@ -21,6 +21,8 @@ vel_seta = 0
 pontos = 0
 rodando = True
 
+fonte = pygame.font.Font(None, 60)
+
 while rodando:
     relogio.tick(24)  # fps
     # fill recebe valores RGB ([vermelho, verde, azul])
@@ -30,11 +32,17 @@ while rodando:
     tela.blit(cenario, (0,0))
     tela.blit(seta, (344,pos_seta_y))
     tela.blit(dragao, (pos_dragao_x,30))
+    # placar
+    if pontos > 0:
+        # render(mensagem, antialias,cor)
+        texto = fonte.render(str(pontos), True, (0,0,0))
+        tela.blit(texto, (620, 190))
     pygame.display.flip()
 
     for evento in pygame.event.get():
         if evento.type == pygame.QUIT:
             rodando = False
+            print("Você fez %d pontos" % pontos)
         if evento.type == pygame.KEYDOWN:
             vel_seta = 10
 
