@@ -13,8 +13,9 @@ rodando = True
 while rodando:
     relogio.tick(24)
     tela.fill([255,255,255])
-    area_dragao = pygame.Rect(pos_dragao, 30, 200, 112)
-    tela.blit(img_dragao, area_dragao)
+    # area_dragao = pygame.Rect(pos_dragao, 30, 200, 112)
+    # tela.blit(img_dragao, area_dragao)
+    tela.blit(img_dragao, (pos_dragao,30))
     pygame.display.flip()
 
     for evento in pygame.event.get():
