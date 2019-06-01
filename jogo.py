@@ -3,7 +3,7 @@ import pygame
 
 pygame.init()
 tela = pygame.display.set_mode((700,500))
-pygame.display.set_caption("Meu game")
+pygame.display.set_caption("Jogo das Rainhas")
 relogio = pygame.time.Clock()
 
 img_dragao = pygame.image.load('imagens/dragao.png')
