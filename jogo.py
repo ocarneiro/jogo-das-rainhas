@@ -8,13 +8,15 @@ relogio = pygame.time.Clock()
 
 img_dragao = pygame.image.load('imagens/dragao.png')
 pos_dragao = -200
+vel_dragao = 8
 rodando = True
 
 while rodando:
     relogio.tick(24)
-    tela.fill([255,255,255])
-    # area_dragao = pygame.Rect(pos_dragao, 30, 200, 112)
-    # tela.blit(img_dragao, area_dragao)
+    # fill recebe uma cor RGB ([vermelho, verde, azul])
+    # ou cor em formato html '#112233'
+    tela.fill(pygame.Color('#f2f2f2'))
+    # blit recebe uma imagem e uma posição (x,y)
     tela.blit(img_dragao, (pos_dragao,30))
     pygame.display.flip()
 
@@ -22,4 +24,5 @@ while rodando:
         if evento.type == pygame.QUIT:
             rodando = False
 
-    pos_dragao = pos_dragao + 2
+    # movimenta o dragao em x
+    pos_dragao = pos_dragao + vel_dragao
